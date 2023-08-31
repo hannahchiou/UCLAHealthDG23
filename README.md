@@ -18,6 +18,7 @@ See code for further detail.
 
 **1. get_asset_ids**
 * This function takes a Collibra domain ID as input and creates and returns a list of dictionaries containing the lowercased name of one column asset as the key and the column asset ID as the value. The function makes use of the requests get call.
+* Note that in the code, this function contains examples of how the config file (as created and defined in the helper.py code) can be used in the code for increased flexibility and/or different use cases.
 
 **2. get_logic**
 * The function checks a list of IDs (formatted as dictionaries as specified in the get_asset_ids description) for column assets that have transformation logic. The logic was checked using the response get function. 
